@@ -1,0 +1,2 @@
+# load config files
+include $HOME/.config/sway/config.d/*

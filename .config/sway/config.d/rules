@@ -1,0 +1,7 @@
+# rules for apps
+
+for_window [app_id="pavucontrol"] floating enable
+for_window [app_id="galculator"] floating enable
+for_window [app_id="nwg-look"] floating enable
+for_window [app_id="mpv"] floating enable, resize set 1280 720
+for_window [app_id="qimgv"] floating enable, resize set 1280 720
