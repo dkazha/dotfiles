@@ -5,3 +5,24 @@ for_window [app_id="galculator"] floating enable
 for_window [app_id="nwg-look"] floating enable
 for_window [app_id="mpv"] floating enable, resize set 1280 720
 for_window [app_id="qimgv"] floating enable, resize set 1280 720
+
+# rules for windows
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_role="About"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
+
+# Steam
+for_window [class="^steam$" title="Friends List"] floating enable
+for_window [class="^steam$" title="Steam - News"] floating enable
+for_window [class="^steam$" title=".* - Chat"] floating enable
+for_window [class="^steam$" title="Steam Settings"] floating enable
+for_window [class="^steam$" title=".* - event started"] floating enable
+for_window [class="^steam$" title=".* CD key"] floating enable
+for_window [class="^steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^steam Keyboard$"] floating enable
