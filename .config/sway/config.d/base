@@ -15,7 +15,7 @@ output * bg ~/.config/backgrounds/wallpaper.jpg fill
 set $menu fuzzel
 
 # terminal
-set $term kitty
+set $term alacritty
 
 # monitor resolution
 output DP-2 resolution 1920x1080@143.855Hz position 0,0
