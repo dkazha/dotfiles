@@ -25,12 +25,12 @@ sudo pacman -S stow
 ## Install it
 
 ```
-$ git clone git@github.com/dkazha/dotfiles.git
-$ cd dotfiles
+git clone git@github.com/dkazha/dotfiles.git
+cd dotfiles
 ```
 
 ## Create symlinks with GNU Stow
 
 ```
-$ stow .
+stow .
 ```
